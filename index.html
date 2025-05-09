@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mnimi – Your Second Memory. Speak or type, and Mnimi will remember for you.">
+  <title>Mnimi – Your Second Memory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Libre Baskerville', serif;
+      background: url('oldPaper.png') no-repeat center center fixed;
+      background-size: cover;
+      color: #1a1a1a;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 5vw;
+    }
+    .overlay {
+      background: rgba(255, 255, 255, 0.85);
+      padding: 3rem;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      max-width: 640px;
+      width: 100%;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1.2rem;
+      font-weight: 400;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      margin-bottom: 2rem;
+    }
+    .button {
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      background-color: #1a1a1a;
+      color: #fff;
+      border: none;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.2s ease;
+    }
+    .button:hover {
+      background-color: #444;
+    }
+    @media (max-width: 600px) {
+      .overlay {
+        padding: 2rem;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Mnimi</h1>
+    <p>Your second memory. Whisper your thoughts or type them in — Mnimi helps you save, search, and revisit what matters.</p>
+    <a href="#" class="button">Download on the App Store</a>
+  </div>
+</body>
+</html>
